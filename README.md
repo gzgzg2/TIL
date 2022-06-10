@@ -1,2 +1,2 @@
-# TIL
-공부할래요
+# 👊 TIL (Today I Learned) 
+
