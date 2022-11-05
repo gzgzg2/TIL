@@ -124,3 +124,12 @@
   - Application 종속적인 비지니스 로직
   - 특정 Application에 특화된 메소드들은 Interactor 객체에 구현
   - 같은 도메인인데 어떤 시스템이냐에 따라서 달라지는 부분을 Application 로직이라고 할 수 있음.
+- Boundary Object
+  - Use Case를 Delivery 메커니즘으로부터 격리
+  - Use Csae를 Delivery 메커니즘 간의 통신 수단 제공
+  - MVC/ Console / Thick Client 등은 Boundary의 반대편에 존재
+  - Use Case는 이러한 Delivery 메커니즘에 대해 모른체 Boudary의 또 다른 반대편에 존재
+- Isolation
+  - 소스 코드 의존성은 하나의 방향만 유지해야
+    - Delivery Mechanism을 Decouple하기 위해
+    - 소스 코드 의존성이 단방향이여야 낮은 결합이 유지됨 .. 결합이 낮아야 확장도 편리
