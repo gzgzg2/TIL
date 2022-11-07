@@ -5,7 +5,7 @@
 - 시스템 개발에 기반을 제공하는 변경 불가한 초기 결정사항의 집합
   - Java
   - Eclipse
-  - String, Tomcat, Hibernate:
+  - Spring, Tomcat, Hibernate:
   - MySQL, MVC
 - 건축의 아키텍처가 해머, 못 등이 아니듯 위에 정의된 것들은 도구일 뿐
 - 툴, Building Material 등이 아니라 사용법(Usage)에 대한 것
