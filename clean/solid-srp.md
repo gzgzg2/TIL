@@ -59,7 +59,7 @@
   - 기존 책임(Policy, Architecture)에는 변경이 없음에도 새로운 리포트가 추가되어 변경됨
   - 새로운 리포트 기능이 Employee 클래스에 추가되면 이 기능을 필요로 하지 않는 Employee 클래스를 사용하는 모든 클래스들이 다시 컴파일/배포되어야 함
   - 모든 액터들이 영향을 받게 된다.
-    - “Collacation of responsibilites couples the actors”
+    - “Collocation of responsibilities couples the actors”
 
 ## SRP
 
@@ -98,11 +98,11 @@
   - 3개의 책임에 대한 구현은 분리
   - 하나의 책임의 변경에 다른 책임에 영향 안미침
 - 문제점
-  - 의존성 전이(EmployeeGateway/ExployeeReporter → Employee)
+  - 의존성 전이(EmployeeGateway/EmployeeReporter → Employee)
   - Employee 개념이 3개로 분리
 
 
-**Extract Classes & Inverted Depedencies**
+**Extract Classes & Inverted Dependencies**
 
 - 두개의 장점을 합치면 문제점을 최소화 할 수 있다.
 - 의존성은 역전시키고 클라이언트마다 각각의 인터페이스를 만들어두면 의존성 전이 문제와 결합 문제를 해결할 수 있다.
@@ -112,7 +112,7 @@
 **Facade - 어디에 구현이 있는지 찾기 쉽게**
 
 - Put all 3 function families into a facade class
-- Facade delegates to the different implemenations
+- Facade delegates to the different implementations
 - 장점
   - 어디에 구현되었는지 찾기 쉽다.
 - 단점
