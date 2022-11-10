@@ -35,7 +35,6 @@
 
 ### Collision
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2e3f3ac6-cadf-4703-a2b5-3f5520d771f6/Untitled.png)
 
 - Primary Value 저하
   - Policy Actors: business rule의 변경을 필요로 함
@@ -45,7 +44,6 @@
 
 ### Fan Out
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da2bd23c-30d0-4f09-9355-f5b487aa4a77/Untitled.png)
 
 - Employee는 너무 많은 것을 안다.
   - Business rules
@@ -80,7 +78,6 @@
 
 ## Solution
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de0b6fd0-3d91-4a54-8cec-c4ba01457a3d/Untitled.png)
 
 **Inverted Dependencies**
 
@@ -92,7 +89,6 @@
   - 모든 Actor들이 하나의 인터페이스에 coupled
   - 하나의 클래스에 구현되어도 coupled
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b955344-2c87-4d62-8c3c-90a9ccc6163e/Untitled.png)
 
 **Extract Classes**
 
@@ -112,7 +108,6 @@
 - 의존성은 역전시키고 클라이언트마다 각각의 인터페이스를 만들어두면 의존성 전이 문제와 결합 문제를 해결할 수 있다.
 - 단점으로는 추출한 인터페이스마다 구현해야 하고 이해하기 복잡해질 수 있는 문제가 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d65b5d7f-8582-49a3-9522-44f68ded9e10/Untitled.png)
 
 **Facade - 어디에 구현이 있는지 찾기 쉽게**
 
