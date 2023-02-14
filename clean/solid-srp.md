@@ -120,7 +120,6 @@
 
 **Interface Segregation**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45681f81-9537-4de6-ad19-3b8f372cbae8/Untitled.png)
 
 - Create 3 Interfaces for each responsibility
 - 3개의 인터페이스를 하나의 클래스로 구현
@@ -137,7 +136,6 @@
 
 ### Architecture
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6d50439a-cf00-482c-9612-544ef69ea9cf/Untitled.png)
 
 - Customer Actor를 위한 Responsibility가 어플리케이션 아키텍처의 중심
 - 각 패캐지는 각 액터들을 위한 책임을 구현
